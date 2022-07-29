@@ -6,14 +6,9 @@ const PIMDashboard = () => {
         <div className='dashboard-head '>
             <div className="dashboard-nav">
              <ul>
-                <li className='profile-left-nav-list'>OrangHRM</li>
-                <li className='profile-left-nav-list'>Search</li>
-                <li className='profile-left-nav-list'>Admin</li>
+              
                 <li className='profile-left-nav-list'> <Link  to="/" >PIM</Link ></li>
-                <li className='profile-left-nav-list'>Leave</li>
-                <li className='profile-left-nav-list'>Time</li>
-                <li className='profile-left-nav-list'>My Info</li>
-                <li className='profile-left-nav-list'>Dashboard</li>
+                
              </ul>
              
             </div>

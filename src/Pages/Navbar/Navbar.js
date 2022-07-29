@@ -6,7 +6,7 @@ const Navbar = ({user, setUser}) => {
     navigate("/profile")
   }
   const logOut =() =>{
-    setUser(" ")
+    setUser({})
   }
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -16,10 +16,10 @@ const Navbar = ({user, setUser}) => {
       <ul class="navbar-nav">
        
         <li class="nav-item">
-          <Link className='nav-link' to="/">PIM</Link>
+          <Link className='nav-link' to="/dashboard">PIM</Link>
         </li>
         {user?<li class="nav-item">
-          <Link  className='nav-link'  to="/login">Login</Link>
+          <Link  className='nav-link'  to="/">Login</Link>
         </li>:<li class="nav-item">
           <button  onClick={handleLogOut}> {user?.name}   </button>
           <span onClick={logOut}>Log out</span>
