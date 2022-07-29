@@ -1,0 +1,12 @@
+.Profile-head{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.profile-body{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 25px;
+    height: 400px;
+}

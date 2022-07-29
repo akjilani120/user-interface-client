@@ -1,0 +1,24 @@
+.login-head{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.login-flex{
+    height: 100vh;
+}
+.login-main{
+    width: 50%;
+    border: 1px solid silver;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.login-title{
+    color: rgb(34, 34, 80);
+    font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .login-main{
+        width: 90%;
+    }
+}
